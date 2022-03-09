@@ -17,7 +17,7 @@ public class StudentController {
     @GetMapping
     public List<Student> queryAll()
     {
-        System.out.println("-------------------");
+
         return studentService.list();
     }
 
